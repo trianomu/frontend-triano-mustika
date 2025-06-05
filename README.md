@@ -1,14 +1,14 @@
 # React TypeScript Form App
 
-A simple and scalable React app using TypeScript and Bootstrap for form input and selection, with dynamic calculations and reusable components.
+Aplikasi React yang sederhana dan dapat dikembangkan dengan menggunakan **TypeScript** dan **Bootstrap**, mendukung input dan seleksi form, perhitungan otomatis, serta komponen yang dapat digunakan ulang.
 
 ## Features
 
-- React with TypeScript
+- React dengan TypeScript
 - Bootstrap 5 styling
 - Reusable components (`InputText`, `SelectInput`, `TextareaInput`)
 - Dynamic form calculation (harga, diskon, total)
-- Select option with searchable dropdown
+- Select option dengan searchable dropdown
 - Responsive layout
 
 ---
