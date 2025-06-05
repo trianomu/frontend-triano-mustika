@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+# React TypeScript Form App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and scalable React app using TypeScript and Bootstrap for form input and selection, with dynamic calculations and reusable components.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- React with TypeScript
+- Bootstrap 5 styling
+- Reusable components (`InputText`, `SelectInput`, `TextareaInput`)
+- Dynamic form calculation (harga, diskon, total)
+- Select option with searchable dropdown
+- Responsive layout
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🧰 Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Create React App](https://create-react-app.dev/)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Instalasi
 
-### `npm run build`
+1. **Clone repository**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/trianomu/frontend-triano-mustika.git
+cd frontend-triano-mustika
+```
+---
+2. **Install depedencies dan atur .env**
+Copy file .env.example dan rename menjadi .env lalu ganti value dari REACT_APP_BASE_URL dengan ip_address:port yang sesuai seperti pada contoh.
+Setelah itu install depedencies yang dibutuhkan
+```bash
+npm install
+# or
+yarn install
+```
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
+3. **Jalankan server Development**
+```bash
+npm start
+# or
+yarn start
+```
+Aplikasi akan berjalan di alamat berikut: http://localhost:3000/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+4. **Build aplikasi untuk Production**
+```bash
+npm run build
+# or
+yarn build
+```
 
-### `npm run eject`
+Hasil build akan muncul di folder /build 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5.**Preview build Production di server lokal**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm install -g serve
+serve -s build
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Lalu buka http://localhost:3000 di browser
+---
 
-## Learn More
+### 💡 Tips
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Ganti `your-username` dan nama repo sesuai akun GitHub kamu.
+- Tambahkan screenshot aplikasi jika perlu untuk visual preview.
+- Bisa juga tambahkan `.env.example` kalau kamu punya variabel environment.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Kalau kamu ingin README dalam Bahasa Ind
