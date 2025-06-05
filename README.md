@@ -2,7 +2,7 @@
 
 A simple and scalable React app using TypeScript and Bootstrap for form input and selection, with dynamic calculations and reusable components.
 
-## 🚀 Features
+## Features
 
 - React with TypeScript
 - Bootstrap 5 styling
@@ -13,7 +13,7 @@ A simple and scalable React app using TypeScript and Bootstrap for form input an
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
