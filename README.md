@@ -43,7 +43,6 @@ yarn install
 ```
 ---
 
----
 3. **Jalankan server Development**
 ```bash
 npm start
@@ -62,6 +61,7 @@ yarn build
 
 Hasil build akan muncul di folder /build 
 
+---
 
 5.**Preview build Production di server lokal**
 
@@ -69,6 +69,6 @@ Hasil build akan muncul di folder /build
 npm install -g serve
 serve -s build
 ```
-
 Lalu buka http://localhost:3000 di browser
+
 ---
