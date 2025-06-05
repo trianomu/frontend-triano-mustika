@@ -72,11 +72,3 @@ serve -s build
 
 Lalu buka http://localhost:3000 di browser
 ---
-
-### 💡 Tips
-
-- Ganti `your-username` dan nama repo sesuai akun GitHub kamu.
-- Tambahkan screenshot aplikasi jika perlu untuk visual preview.
-- Bisa juga tambahkan `.env.example` kalau kamu punya variabel environment.
-
-Kalau kamu ingin README dalam Bahasa Ind
