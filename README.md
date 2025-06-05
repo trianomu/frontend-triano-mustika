@@ -33,7 +33,7 @@ cd frontend-triano-mustika
 ---
 2. **Install depedencies dan atur .env**
 
-Copy file .env.example dan rename menjadi .env lalu ganti value dari REACT_APP_BASE_URL dengan ip_address:port yang sesuai seperti pada contoh.
+Copy file .env.example dan rename menjadi .env lalu ganti nilai dari REACT_APP_BASE_URL dengan format ip_address:port yang akan digunakan.
 Setelah itu install depedencies yang dibutuhkan
 
 ```bash
